@@ -1,0 +1,31 @@
+{
+    "SPYWARE PC": [
+        "Spyware Builder V12"
+    ],
+    "RAT Computer": [
+        "Apocalypse RAT v3",
+        "Rasomware Builder",
+        "Key logger v5 PRO",
+        "Crypto Miner Builder"
+    ],
+    "TOOLS": [
+        "EXE To Image",
+        "Brute force zip",
+        "Grabber Builder v1",
+        "CC Validator",
+        "Discord Bot Pannel",
+        "Web Scanner"
+    ],
+    "EXPLOITS": [
+        "Exploit DB",
+        "Metasploit Helper",
+        "Payload Generator"
+    ],
+    "OSINT": [
+        "OSINT RS"
+    ],
+    "MISC": [
+        "Tool 1",
+        "Tool 2"
+    ]
+}

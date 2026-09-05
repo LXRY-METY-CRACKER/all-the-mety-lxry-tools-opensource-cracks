@@ -1,0 +1,71 @@
+📦 Moduli comuni per Spyware
+Modulo	Utilizzo tipico
+pynput	Keylogger (cattura tasti premuti)
+pyautogui / PIL (Pillow)	Screenshot, controllo del mouse/tastiera
+opencv-python (cv2)	Cattura webcam
+pyaudio / sounddevice	Registrazione microfono
+requests	Invio dati a server/API (Telegram, webhook, C2)
+smtplib + email	Invio email con allegati
+socket	Comunicazione diretta con C2 (reverse shell)
+psutil	Monitoraggio processi, CPU, memoria, rilevamento macchine virtuali
+platform, os, sys, subprocess	Informazioni di sistema, esecuzione comandi, persistenza
+winreg (Windows) / crontab (Linux)	Persistenza all'avvio
+ctypes / pywin32	Chiamate API Windows per nascondere finestre, debug, ecc.
+shutil, glob, pathlib	Gestione file e cartelle (exfiltrazione)
+🔐 Moduli comuni per Ransomware
+Modulo	Utilizzo tipico
+cryptography (Fernet, RSA, AES)	Crittografia file simmetrica/asimmetrica
+pycryptodome o pycrypto	Alternative per crittografia
+os, shutil, pathlib	Scansione file system, rinominare file, eliminare backup
+subprocess	Esecuzione comandi (es. vssadmin delete shadows per eliminare copie shadow)
+requests	Comunicazione con server C2 per ricevere chiave pubblica
+base64, hashlib	Codifiche, hash per identificazione file
+random, secrets	Generazione chiavi casuali
+threading	Crittografia parallela per velocizzare
+tkinter o PyQt	Mostrare finestra di riscatto (nota)
+ctypes / win32api	Cambio sfondo, messaggi di sistema
+platform	Rilevamento sistema oper
+
+OS OSINT
+
+Quindi i requirements sono:
+
+requests
+
+beautifulsoup4
+
+geopy
+
+wikipedia
+
+python-nmap (il pacchetto si chiama python-nmap)
+
+colorama
+
+pystyle
+
+faker
+
+instaloader
+
+bcrypt
+
+pyzipper
+
+rarfile
+
+Pillow (PIL)
+
+piexif
+
+exifread
+
+pywin32 (per win32clipboard, win32gui)
+
+pynput
+
+discord.py (per discord)
+
+opencv-python (cv2)
+
+dnspython
